@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real time Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fixnav">HTML, CSS, JS Realtime Editor</div>
+    <div class="edit-div">
+        <textarea name="edit-area" id="edit-id" onkeyup="refresh()" placeholder="Start youre coding from here"></textarea>
+        <iframe id="view-frame"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
